@@ -1,5 +1,6 @@
 .container {
     background-color: #c00025;
+    margin: auto;
     width: 100%;
     max-width: 550px;
     border-radius: 15px;
@@ -7,7 +8,7 @@
     padding-bottom: 25px;
 }
 .display {
-    margin-top: 25px;
+    margin: 25px auto;
     height: 100px;
     width: 450px;
     border-radius: 50px;
@@ -20,3 +21,51 @@
     padding-right: 8%;
     font-size: 5.0rem;
   }
+
+.button {
+    color: white;
+    width: 5rem;
+    height: 5rem;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0px 2px black;
+}
+
+.special {
+    background-color: #0162A8;
+}
+
+.operator {
+    background-color: #007393;
+}
+
+.number {
+    background-color: #0A4580;
+}
+
+.button-container {
+    width: 494px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.special-numbers {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.zero {
+    width: 63%;
+}
+
+.operators {
+    width: 25%;
+}
+
+button {
+    margin-top: 15px;
+}
